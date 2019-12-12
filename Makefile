@@ -1,6 +1,7 @@
 CXX = g++
 GPU = nvcc
 CFLAGS = -fopenmp
+GPUFLAGS = -Xcompiler -fopenmp
 TARGET = simpleAdd
 CUDA = simpleAdd_cuda
 all: $(TARGET)
@@ -15,5 +16,5 @@ clean:
 
 cuda: $(CUDA)
 $(CUDA): simpleAdd.cu simpleAddCPU.cpp
-	$(GPU) -Xcompiler -fopenmp -o simpleAdd.cu simpleAddCPU.cpp -I.
+	$(GPU) $(GPUFLAGS) -o $(CUDA) simpleAdd.cu simpleAddCPU.cpp -I.
 	# Compiles the cuda code and allows for omp statements 
