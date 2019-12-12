@@ -1,10 +1,10 @@
 #include <simpleAddCPU.hpp>
 #include <simpleAddGPU.h>
-
+#include <stdio.h>
 
 int main(void){
 
-    long N = 100*1000*1000;
+    long N = 1*1000*1000;
     // int *a;
     // a = new int[N];
     // int *b;

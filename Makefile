@@ -15,6 +15,6 @@ clean:
 	$(RM) $(CUDA)
 
 cuda: $(CUDA)
-$(CUDA): simpleAdd.cu simpleAddCPU.cpp
-	$(GPU) $(GPUFLAGS) -o $(CUDA) simpleAdd.cu simpleAddCPU.cpp -I.
+$(CUDA): main.cu simpleAddGPU.cu simpleAddCPU.cpp
+	$(GPU) $(GPUFLAGS) -o $(CUDA) main.cu simpleAddGPU.cu simpleAddCPU.cpp -I.
 	# Compiles the cuda code and allows for omp statements 
