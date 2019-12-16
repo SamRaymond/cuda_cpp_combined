@@ -1,0 +1,5 @@
+/home/sjr/cuda_cpp_combined/cmake_setup/cpp_cuda/build/CMakeFiles/rebuild_cache.dir
+/home/sjr/cuda_cpp_combined/cmake_setup/cpp_cuda/build/CMakeFiles/edit_cache.dir
+/home/sjr/cuda_cpp_combined/cmake_setup/cpp_cuda/build/CMakeFiles/simpleAddCUDACXX.dir
+/home/sjr/cuda_cpp_combined/cmake_setup/cpp_cuda/build/CMakeFiles/cpu.dir
+/home/sjr/cuda_cpp_combined/cmake_setup/cpp_cuda/build/CMakeFiles/gpu.dir

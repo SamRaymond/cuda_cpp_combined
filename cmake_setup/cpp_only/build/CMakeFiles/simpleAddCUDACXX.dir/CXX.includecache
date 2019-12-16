@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/main.cpp
+simpleAddCPU.hpp
+/home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/simpleAddCPU.hpp
+stdio.h
+-
+
+/home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/simpleAddCPU.hpp
+stdio.h
+-
+math.h
+-
+omp.h
+-
+
