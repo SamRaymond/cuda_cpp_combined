@@ -5,7 +5,7 @@
 #include <math.h>
 #include <omp.h>
 
-void randomize_CPU(float* a,float* b, float* c,long N);
-void add_CPU(float* a,float* b, float* c,long N);
+void randomize_CPU(double* a,double* b, double* c,long N);
+void add_CPU(double* a,double* b, double* c,long N);
 
 #endif
