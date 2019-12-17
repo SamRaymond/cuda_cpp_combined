@@ -25,13 +25,13 @@ int main(void){
     cudaDeviceSynchronize();
     add_cuda<<<numBlocks, blockSize>>>(a,b,c,N);
     cudaDeviceSynchronize();
-    for(int p=0;p<10;p++){
-        printf("%f, %f,%f \n",a[p],b[p],c[p]);
-    }
+    // for(int p=0;p<10;p++){
+    //     printf("%f, %f,%f \n",a[p],b[p],c[p]);
+    // }
     add_CPU(a,b,c,N);
-    for(int p=0;p<10;p++){
-        printf("%f, %f,%f \n",a[p],b[p],c[p]);
-    }
+  //  for(int p=0;p<10;p++){
+  //      printf("%f, %f,%f \n",a[p],b[p],c[p]);
+  //  }
     // delete a;
     // delete b;
     // delete c;

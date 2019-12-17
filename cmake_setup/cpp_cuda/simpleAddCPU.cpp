@@ -1,6 +1,6 @@
 #include "simpleAddCPU.hpp"
 
-void randomize_CPU(double* a,double* b, double* c,long N){
+void randomize_CPU(float* a,float* b, float* c,long N){
     
     for(int i=0; i<N; i++){
         a[i] = i;
@@ -8,7 +8,7 @@ void randomize_CPU(double* a,double* b, double* c,long N){
     }
 
 };
-void add_CPU(double* a,double* b, double* c,long N){
+void add_CPU(float* a,float* b, float* c,long N){
     printf("%f,%p\n",c[2],(void*)&c[2]);
     #pragma omp parallel for
     for(int i=0; i<N; i++){

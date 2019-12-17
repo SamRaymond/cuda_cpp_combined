@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/simpleAddCPU.cpp" "/home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/build/CMakeFiles/cpu.dir/simpleAddCPU.cpp.o"
+  "/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/simpleAddCPU.cpp" "/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/build/CMakeFiles/cpu.dir/simpleAddCPU.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

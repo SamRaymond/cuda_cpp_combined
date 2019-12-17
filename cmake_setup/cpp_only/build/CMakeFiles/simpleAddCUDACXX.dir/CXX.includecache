@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/main.cpp
+/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/main.cpp
 simpleAddCPU.hpp
-/home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/simpleAddCPU.hpp
+/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/simpleAddCPU.hpp
 stdio.h
 -
 
-/home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/simpleAddCPU.hpp
+/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/simpleAddCPU.hpp
 stdio.h
 -
 math.h

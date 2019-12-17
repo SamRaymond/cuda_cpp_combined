@@ -1,4 +1,4 @@
-/home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/build/CMakeFiles/rebuild_cache.dir
-/home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/build/CMakeFiles/edit_cache.dir
-/home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/build/CMakeFiles/cpu.dir
-/home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/build/CMakeFiles/simpleAddCUDACXX.dir
+/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/build/CMakeFiles/rebuild_cache.dir
+/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/build/CMakeFiles/edit_cache.dir
+/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/build/CMakeFiles/cpu.dir
+/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/build/CMakeFiles/simpleAddCUDACXX.dir

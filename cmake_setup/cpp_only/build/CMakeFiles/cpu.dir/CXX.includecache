@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/simpleAddCPU.cpp
+/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/simpleAddCPU.cpp
 simpleAddCPU.hpp
-/home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/simpleAddCPU.hpp
+/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/simpleAddCPU.hpp
 
-/home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/simpleAddCPU.hpp
+/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/simpleAddCPU.hpp
 stdio.h
 -
 math.h

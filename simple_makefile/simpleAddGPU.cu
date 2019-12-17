@@ -4,6 +4,7 @@ __global__ void randomize_cuda(double* a,double* b, double* c,long N){
     int index = blockIdx.x * blockDim.x + threadIdx.x;
     
     if(index<N){
+        
         a[index] = index;
         b[index] = index/2;
         c[index] = 0;
@@ -14,7 +15,7 @@ __global__ void add_cuda(double* a,double* b,double* c,long N){
     
     int index = blockIdx.x * blockDim.x + threadIdx.x;
     if(index == 2){
-	printf("%f,%p\n",c[index],(void*)&c[index]);
+	printf("Index 2 :%f,%p\n",c[index],(void*)&c[index]);
 }
 
     if(index<N){

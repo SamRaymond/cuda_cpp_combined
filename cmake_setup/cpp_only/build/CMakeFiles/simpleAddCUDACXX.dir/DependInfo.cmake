@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/main.cpp" "/home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/build/CMakeFiles/simpleAddCUDACXX.dir/main.cpp.o"
+  "/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/main.cpp" "/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/build/CMakeFiles/simpleAddCUDACXX.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -14,7 +14,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/build/CMakeFiles/cpu.dir/DependInfo.cmake"
+  "/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/build/CMakeFiles/cpu.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -3,7 +3,7 @@
 
 int main(void){
 
-    long N = 1*1000*1000;
+    long N = 100*1000*1000;
     double *a;
     a = new double[N];
     double *b;

@@ -1,4 +1,4 @@
-# Install script for directory: /home/sjr/cuda_cpp_combined/cmake_setup/cpp_only
+# Install script for directory: /home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_cuda/main.cu
+simpleAddCPU.hpp
+/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_cuda/simpleAddCPU.hpp
+simpleAddGPU.h
+/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_cuda/simpleAddGPU.h
+stdio.h
+-
+
+/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_cuda/simpleAddCPU.hpp
+stdio.h
+-
+math.h
+-
+omp.h
+-
+
+/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_cuda/simpleAddGPU.h
+

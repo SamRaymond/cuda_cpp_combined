@@ -12,12 +12,12 @@ int main(void){
     // int *c;
     // c = new int[N];
 
-    double* a;
-    cudaMallocManaged(&a, N*sizeof(double));
-    double* b;
-    cudaMallocManaged(&b, N*sizeof(double));
-    double* c;
-    cudaMallocManaged(&c, N*sizeof(double));
+    float* a;
+    cudaMallocManaged(&a, N*sizeof(float));
+    float* b;
+    cudaMallocManaged(&b, N*sizeof(float));
+    float* c;
+    cudaMallocManaged(&c, N*sizeof(float));
     
     int blockSize = 256;
     int numBlocks = (N + blockSize - 1) / blockSize;

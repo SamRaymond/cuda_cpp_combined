@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sjr/cuda_cpp_combined/cmake_setup/cpp_only
+CMAKE_SOURCE_DIR = /home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/build
+CMAKE_BINARY_DIR = /home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cpu.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/cpu.dir/flags.make
 
 CMakeFiles/cpu.dir/simpleAddCPU.cpp.o: CMakeFiles/cpu.dir/flags.make
 CMakeFiles/cpu.dir/simpleAddCPU.cpp.o: ../simpleAddCPU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpu.dir/simpleAddCPU.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpu.dir/simpleAddCPU.cpp.o -c /home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/simpleAddCPU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpu.dir/simpleAddCPU.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpu.dir/simpleAddCPU.cpp.o -c /home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/simpleAddCPU.cpp
 
 CMakeFiles/cpu.dir/simpleAddCPU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpu.dir/simpleAddCPU.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/simpleAddCPU.cpp > CMakeFiles/cpu.dir/simpleAddCPU.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/simpleAddCPU.cpp > CMakeFiles/cpu.dir/simpleAddCPU.cpp.i
 
 CMakeFiles/cpu.dir/simpleAddCPU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpu.dir/simpleAddCPU.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/simpleAddCPU.cpp -o CMakeFiles/cpu.dir/simpleAddCPU.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/simpleAddCPU.cpp -o CMakeFiles/cpu.dir/simpleAddCPU.cpp.s
 
 CMakeFiles/cpu.dir/simpleAddCPU.cpp.o.requires:
 
@@ -91,7 +91,7 @@ cpu_EXTERNAL_OBJECTS =
 libcpu.a: CMakeFiles/cpu.dir/simpleAddCPU.cpp.o
 libcpu.a: CMakeFiles/cpu.dir/build.make
 libcpu.a: CMakeFiles/cpu.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcpu.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcpu.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/cpu.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpu.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/cpu.dir/clean:
 .PHONY : CMakeFiles/cpu.dir/clean
 
 CMakeFiles/cpu.dir/depend:
-	cd /home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sjr/cuda_cpp_combined/cmake_setup/cpp_only /home/sjr/cuda_cpp_combined/cmake_setup/cpp_only /home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/build /home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/build /home/sjr/cuda_cpp_combined/cmake_setup/cpp_only/build/CMakeFiles/cpu.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only /home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only /home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/build /home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/build /home/sjr/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/build/CMakeFiles/cpu.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cpu.dir/depend
 
