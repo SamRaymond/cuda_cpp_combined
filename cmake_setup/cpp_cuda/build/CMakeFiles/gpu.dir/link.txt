@@ -1,2 +1,0 @@
-/usr/bin/ar qc libgpu.a  CMakeFiles/gpu.dir/simpleAddGPU.cu.o
-/usr/bin/ranlib libgpu.a

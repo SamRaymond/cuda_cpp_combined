@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/Sam/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Sam/Desktop/cuda_cpp_combined/cmake_setup/cpp_only/build_win/CMakeFiles/generate.stamp is up-to-date.
+cl : Command line warning D9002: ignoring unknown option '-fpic'
+cl : Command line warning D9002: ignoring unknown option '-O3'
+cl : Command line warning D9002: ignoring unknown option '-std=c++11'
+  main.cpp
+  simpleAddCUDACXX.vcxproj -> C:\Users\Sam\Desktop\cuda_cpp_combined\cmake_setup\cpp_only\build_win\Release\simpleAddCUDACXX.exe

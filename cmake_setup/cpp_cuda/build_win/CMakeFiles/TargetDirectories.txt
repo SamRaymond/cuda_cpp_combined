@@ -1,0 +1,5 @@
+C:/Users/Sam/Desktop/cuda_cpp_combined/cmake_setup/cpp_cuda/build_win/CMakeFiles/cpu.dir
+C:/Users/Sam/Desktop/cuda_cpp_combined/cmake_setup/cpp_cuda/build_win/CMakeFiles/gpu.dir
+C:/Users/Sam/Desktop/cuda_cpp_combined/cmake_setup/cpp_cuda/build_win/CMakeFiles/simpleAddCUDACXX.dir
+C:/Users/Sam/Desktop/cuda_cpp_combined/cmake_setup/cpp_cuda/build_win/CMakeFiles/ALL_BUILD.dir
+C:/Users/Sam/Desktop/cuda_cpp_combined/cmake_setup/cpp_cuda/build_win/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Sam\Desktop\cuda_cpp_combined\cmake_setup\cpp_only\simpleAddCPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Sam\Desktop\cuda_cpp_combined\cmake_setup\cpp_only\simpleAddCPU.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sam\Desktop\cuda_cpp_combined\cmake_setup\cpp_only\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CCEF6234-F2EB-35C7-95CF-66813B4CA9A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EB45C89C-CA50-3035-99E1-DD75A5F78607}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
