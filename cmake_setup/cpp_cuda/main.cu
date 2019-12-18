@@ -4,14 +4,17 @@
 
 int main(void){
 
-    long N = 300*1000*1000; //~300 variables in Graphyt
+    
     // int *a;
     // a = new int[N];
     // int *b;
     // b = new int[N];
     // int *c;
     // c = new int[N];
-
+    int LOOP_COUNT = 1000;
+    int NUM_PARTICLES = 1000000;
+    long N = 300*NUM_PARTICLES; // ~ 300 variable arrays in Graphyt
+    int ITERATE_COUNT = 1;
     double* a;
     cudaMallocManaged(&a, N*sizeof(double));
     double* b;
@@ -24,9 +27,9 @@ int main(void){
     randomize_cuda<<<1, blockSize>>>(a,b,c,N);
     cudaDeviceSynchronize();
     double t1 = omp_get_wtime();
-    for(int i=0;i<100000;i++)
+    for(int i=0;i<LOOP_COUNT;i++)
     {
-        add_cuda<<<numBlocks, blockSize>>>(a,b,c,N);
+        add_cuda<<<numBlocks, blockSize>>>(a,b,c,N,ITERATE_COUNT);
     }
     cudaDeviceSynchronize();
     double t2 = omp_get_wtime();
@@ -37,9 +40,9 @@ int main(void){
     printf("Particles: %li\nGPU Time: %.2fs\n",N/300,t2-t1);
 
     double t3 = omp_get_wtime();
-    for(int i=0;i<100000;i++)
+    for(int i=0;i<LOOP_COUNT;i++)
     {
-        add_CPU(a,b,c,N);
+        add_CPU(a,b,c,N,ITERATE_COUNT);
     }
     double t4 = omp_get_wtime();
     for(int p=0;p<10;p++){

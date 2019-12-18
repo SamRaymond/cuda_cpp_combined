@@ -10,16 +10,13 @@ __global__ void randomize_cuda(double* a,double* b, double* c,long N){
     }
 };
 
-__global__ void add_cuda(double* a,double* b,double* c,long N, int iterations){
+__global__ void add_cuda(double* a,double* b,double* c,long N){
     
     int index = blockIdx.x * blockDim.x + threadIdx.x;
     if(index<N){
-
         c[index] += a[index] + b[index];
-	for(int q=0; q<iterations;q++){       
-            c[index] +=0.1;
-            c[index] -=0.05;
-	}
-        }
+         c[index] -=0.05;
+        
+    }
 };
 
